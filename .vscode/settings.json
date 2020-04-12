@@ -1,0 +1,14 @@
+{
+    "justTesting.baseCommand": "some-base-comand",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "justTesting.baseCommand": "jest-run-javascript",
+        "justTesting.runOnCursorRegex": "it\\((.+),",
+        "justTesting.runOnCursorCommand": "{base} -t {testName}"
+    },
+    "[python]": {
+        "justTesting.baseCommand": "pytest-for-the-win",
+        "justTesting.runOnCursorRegex": "def (test_.+)\\(",
+        "justTesting.runOnCursorCommand": "{base} -k {testName}"
+    }
+}
